@@ -25,10 +25,14 @@ source venv/bin/activate
 ### Install the dependency
 
 ```sh
-pip install -r requirements.txt 
+pip install -r requirements.txt
 ```
 
-virtualenv --no-site-packages --distribute .env && source .env/bin/activate && 
+### Running the script
+
+```sh
+python analysis.py
+```
 
 ### Save the virtual environment
 
